@@ -1,0 +1,46 @@
+:root{
+    --maincol:rgb(66, 138, 114);
+}
+body{
+    margin: 0px;
+    height: 100vh;
+    background: linear-gradient(45deg,blue, white, var(--maincol));
+}
+header{
+    padding-top: 1px;
+
+}
+header li {
+    cursor: pointer;
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+header a {
+text-decoration: none;
+color: white; 
+}
+header{
+    height: 50px;
+    background-color: var(--maincol);
+}
+h1{
+    text-align: center;
+    color:var(--maincol);
+}
+.box {
+    position: relative;
+    top: 200px;
+}
+
+.box .button {
+    color: white;
+    background-color: var(--maincol);
+    width: fit-content;
+    padding: 5px 20px;
+    margin-left: auto;
+    margin-right: auto; 
+    border: 3px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
